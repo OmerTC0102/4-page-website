@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio - Contact</title>
+</head>
+<body>
+
+<header>
+    <h1>Bana Ulaş</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h2>Bana Bir Mesaj Gönder</h2>
+
+<form action="#" method="post">
+    <fieldset>
+        <legend>Bilgileriniz</legend>
+
+        <label for="name">İsim:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="date">İletişime Geçmek İçin Tarih:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="topic">Konu:</label><br>
+        <select id="topic" name="topic">
+            <option value="project">Yeni Proje</option>
+            <option value="question">Soru</option>
+            <option value="feedback">Yorum</option>
+        </select><br><br>
+
+        <label for="message">Mesaj:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Gönder">
+    </fieldset>
+</form>
+
+<footer>
+    <p>© 2025 ÖmerTC</p>
+</footer>
+
+</body>
+</html>
